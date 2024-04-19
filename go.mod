@@ -1,3 +1,3 @@
-module github.com/andrew-scoppa/go-modules
+module andrew-scoppa/words
 
 go 1.16

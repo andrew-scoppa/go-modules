@@ -1,13 +1,40 @@
-# go-modules
+# Wordgames in Go
 
-### sample go modules
+## Testing
 
-[Tutorial: Create a Go module](https://golang.org/doc/tutorial/create-module)
+### Running the tests
+    
 
-[Managing dependencies](https://golang.org/doc/modules/managing-dependencies)
+    go test ./...
 
-[![GitHub Super-Linter](https://github.com/andrew-scoppa/go-modules/workflows/Lint-Code-Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-[![CodeQL](https://github.com/andrew-scoppa/go-modules/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/andrew-scoppa/go-modules/actions/workflows/codeql-analysis.yml)
+### Running the benchmarks with CPU profiling
+
+    go test -bench . -cpuprofile cpu.prof ./...
+
+
+## Execution
+
+### Running the program
+
+
+    go run main.go
+
+
+<!-- 
+Create a table of authors and contributors with the following columns:
+- Name
+- Title
+- Picture
+-->
+
+# Authors and Contributors
+
+| Name | Title | Picture |
+| --- | --- | --- |
+| Andrew Scoppa | Software Engineer | ![Andrew Scoppa](https://avatars.githubusercontent.com/u/1010001?v=4) |
+
+
+
 
 
